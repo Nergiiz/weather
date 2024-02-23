@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900; 1,300..900&family=Poppins:ital,wght@0,100; 0,200; 0,300; 0,400; 0,500; 0,600; 0,700; 0,800; 0,900; 1,100; 1,200; 1,300; 1,400; 1,500; 1,600; 1,700; 1,800; 1.900&display=swap')
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;}
+
+
+body{
+background: url(images/gece.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+overflow: hidden;
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 100px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.btnDiv{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.btn{
+    width: 200px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: rgb(138, 133, 137);
+    color: white;
+    cursor: pointer;
+    padding: 4px;
+}
+.btn:hover{ background-color: rgb(64, 95, 111);
+    color: rgb(34, 31, 31);
+    scale: 1.1;
+    transition: .5s;
+}
+
+.Input-text{
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-bottom: 3px solid blue;
+    font-size: 20px;
+}
+.info{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;    
+}
+.info p{
+    margin-top: 20px;
+}
+#sicaklik{
+    font-size: 5rem;
+}
+#hisedilen{
+    font-size: 1rem;
+}
+
+.weather-info{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
